@@ -1,0 +1,17 @@
+{
+    "RequestType": "Delete",
+    "ServiceToken": "arn:aws:lambda:eu-west-1:123456789123:function:kms-delete-example-SingletonLambda7677dc81117d41c-A6ASUZTVJQHO",
+    "ResponseURL": "https://cloudformation-custom-resource-response-useast1.s3.amazonaws.com/arn%3Aaws%3Acloudformation%3Aeu-west-1%3A123456789123%3Astack/kms-delete-example/f8e884a0-5649-11e9-a7e2-0a5c603a1bba%7Cexample5bedd9c74d25462bade8a6ece8fdae48141A0CE3%7C0002c9a6-4422-4bb8-ad85-24db30b7166f?AWSAccessKeyId=AKIA6L7Q4OWTWXVILX6J&Expires=1554332048&Signature=m9BcPRf0Q3%2F1NxcQu4pYuNu%2BaDc%3D",
+    "StackId": "arn:aws:cloudformation:eu-west-1:123456789123:stack/kms-delete-example/f8e884a0-5649-11e9-a7e2-0a5c603a1bba",
+    "RequestId": "0002c9a6-4422-4bb8-ad85-24db30b7166f",
+    "LogicalResourceId": "example4d8de7abcfe24e3dbe52b58453a44a211663BA5E",
+    "PhysicalResourceId": "kms-delete-example-5bedd9c74d25462bade8a6ece8fdae48141A0CE3-94YBZF0R1A2W",
+    "ResourceType": "Custom::KmsDeleteKey",
+    "ResourceProperties": {
+        "ResourceProperties": {
+            "ServiceToken": "arn:aws:lambda:eu-west-1:123456789123:function:kms-delete-example-SingletonLambda7677dc81117d41c-1IDQG7E6LKIPN",
+            "KeyId": "arn:aws:kms:eu-west-1:100943553875:key/54958d82-c162-44aa-8a65-e6827dd93b24",
+            "PendingWindowInDays": 7
+        }
+    }
+}

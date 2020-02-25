@@ -1,0 +1,17 @@
+# Compiled Typescript
+/lib/*.js
+*.d.ts
+
+# Node and NPM
+npm-debug.log*
+node_modules
+
+# CDK asset staging directory
+.cdk.staging
+cdk.out
+
+# Webpack output
+dist
+
+# Local OS
+**/.DS_Store
